@@ -1,0 +1,21 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "MERN tasker",
+  "main": "index.js",
+  "scripts": {
+    "server": "npm run dev --prefix server",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"set PORT=4001 && npm run client PORT=4001\""
+  },
+  "keywords": [
+    "MERN",
+    "React",
+    "Redux"
+  ],
+  "author": "Max <maxpet16@mail.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.3.0"
+  }
+}
