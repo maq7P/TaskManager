@@ -54,7 +54,6 @@ export const homeReducer = (
                 home: {
                     ...state.home,
                     responsible: [
-                        ...state.home.responsible,
                         ...action.payload
                     ]
                 }
