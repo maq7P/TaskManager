@@ -2,8 +2,8 @@ import React from 'react'
 import { AuthContext } from '../context/auth.context'
 const storageName: string = 'userData'
 
-//const BASE_URL = 'http://localhost:4000/api'
-const BASE_URL = 'https://nameless-cliffs-71201.herokuapp.com/api'
+const BASE_URL = 'http://localhost:4000/api'
+//const BASE_URL = 'https://nameless-cliffs-71201.herokuapp.com/api'
 
 export const useHttp = () => {
     const [loading, setLoading] = React.useState<boolean>(false)
